@@ -6,6 +6,7 @@
 //  Copyright © 2020 Kilo Loco. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 public struct DeclarableObject {
@@ -261,3 +262,4 @@ public extension DeclarableObject {
         return self
     }
 }
+#endif

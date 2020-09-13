@@ -6,6 +6,7 @@
 //  Copyright © 2020 Kilo Loco. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 public extension UIStackView {
@@ -13,3 +14,4 @@ public extension UIStackView {
         views.forEach { self.addArrangedSubview($0) }
     }
 }
+#endif
