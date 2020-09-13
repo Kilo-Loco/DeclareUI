@@ -8,8 +8,8 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Kilo Loco" => "kyle@kiloloco.com" }
   spec.platform     = :ios, "11.0"
-  spec.source       = { :git => "https://github.com/Kilo-Loco/DeclareUI.git", :tag => "0.1.0" }
-  spec.source_files  = "Source/*.swift"
+  spec.source       = { :git => "https://github.com/Kilo-Loco/DeclareUI.git", :tag => "0.2.0" }
+  spec.source_files  = "DeclareUI/Source/*.{h,m,swift}"
   spec.swift_versions = "4.0"
 
 end
