@@ -5,10 +5,17 @@ import PackageDescription
 
 let package = Package(
     name: "DeclareUI",
+    products: [
+        .library(
+            name: "DeclareUI",
+            targets: ["DeclareUI"]
+        )
+    ],
     targets: [
         .target(
             name: "DeclareUI",
-            path: "Source"),
+            path: "Source"
+        ),
         .testTarget(
             name: "DeclareUITests",
             dependencies: ["DeclareUI"],
